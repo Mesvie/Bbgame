@@ -60,7 +60,7 @@ public class Bbgame {
 			com[2] = (int)r.nextInt(9);
 		}
 		
-		//System.out.println(Arrays.toString(com)); <--랜덤값 확인용
+		//System.out.println(Arrays.toString(com)) <--com 랜덤값 확인용
 		return com;
 	}//End getRandomNum
 	  
