@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-
 public class Bbgame {
 	public static Scanner s; 
 	public static int max_num = 3;
@@ -60,9 +59,9 @@ public class Bbgame {
 			com[2] = (int)r.nextInt(9);
 		}
 		
-		//System.out.println(Arrays.toString(com)) <--com 랜덤값 확인용
+		System.out.println(Arrays.toString(com));
 		return com;
-	}//End getRandomNum
+	}//End getRandomNum-
 	  
 	  
 	  //user 입력 값
@@ -142,5 +141,3 @@ public class Bbgame {
 	  
       
 }//End class
-
-
